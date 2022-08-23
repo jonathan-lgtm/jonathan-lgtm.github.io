@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("img/img.jfif");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.contenedor{
+    background: rgba(242, 242, 242, .9);
+    margin: 30px auto;
+    padding: 30px;
+    border: none;
+    border-radius: 15px;
+    width: 300px;
+    height: auto;
+}
+
+.contenedor h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedor #seleccionar-mascota{
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedor #seleccionar-mascota .contenedor-radio{
+    margin: 5px;
+    padding: 5px;
+}
+
+.contenedor #seleccionar-mascota #boton-mascota{
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    padding: 8px;
+}
+.contenedor #seleccionar-mascota #boton-mascota:hover{
+    border: none;
+    background: #bdbcbc;
+    transition: .3s;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.contenedor #seleccionar-ataque{
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedor #seleccionar-ataque .contenedor-vida{
+    margin: 5px;
+    padding: 5px;
+}
+
+.contenedor #seleccionar-ataque .contenedor-vida .botones-juego{
+    margin-top: 7px;
+}
+
+.contenedor #seleccionar-ataque .contenedor-vida .botones-juego #boton-fuego{
+    margin: 6px;
+    padding: 8px;
+    border: none;
+    background: #ffffffd0;
+    border-radius: 5px;
+}
+
+.contenedor #seleccionar-ataque .contenedor-vida .botones-juego #boton-fuego:hover{
+    margin: 6px;
+    padding: 8px;
+    border: none;
+    background: #ffa061;
+    color: #fff;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+
+.contenedor #seleccionar-ataque .contenedor-vida .botones-juego #boton-agua{
+    margin: 6px;
+    padding: 8px;
+    border: none;
+    background: #ffffffd0;
+    border-radius: 5px;
+}
+
+
+.contenedor #seleccionar-ataque .contenedor-vida .botones-juego #boton-agua:hover{
+    margin: 6px;
+    padding: 8px;
+    border: none;
+    background: #349aee;
+    color:#fff;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.contenedor #seleccionar-ataque .contenedor-vida .botones-juego #boton-tierra{
+    margin: 6px;
+    padding: 8px;
+    border: none;
+    background: #ffffffd0;
+    border-radius: 5px;
+}
+.contenedor #seleccionar-ataque .contenedor-vida .botones-juego #boton-tierra:hover{
+    margin: 6px;
+    padding: 8px;
+    border: none;
+    background: #48eb1fe5;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.contenedor #mensajes{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    margin: auto;
+    width: 220px;
+    height: auto;
+    min-height: 100px;
+    border: solid #6e6e6e;
+    border-radius: 5px;
+}
+
+.contenedor .boton-reiniciarr #boton-reiniciar{
+    width: 150px;
+    margin: 6px 6px;
+    padding: 8px;
+    border: none;
+    background: #212ff1e5;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.contenedor .boton-reiniciarr #boton-reiniciar:hover{
+    width: 150px;
+    margin: 6px 6px;
+    padding: 8px;
+    border: none;
+    background: #3d49f1e5;
+    transition:all;
+    color: #fff;
+    border-radius: 5px;
+}

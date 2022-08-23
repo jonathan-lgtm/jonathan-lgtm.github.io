@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Moképon | Jugar</title>
+    <link rel="shortcut icon" href="https://assets.pokemon.com/static2/_ui/img/favicon.ico">
+    <script src="mokepon.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>MOKEPON! 🔥💧🌱</h1>
+    <section id="seleccionar-mascota">
+        <h2>Elige tu mascota:</h2>
+        <div class="contenedor-radio">
+            <input type="radio" name="mascota" id="hipodoge" />
+            <label for="hipodoge">Hipodoge</label><br>
+            <input type="radio" name="mascota" id="capipepo" />
+            <label for="capipepo">Capipepo</label><br>
+            <input type="radio" name="mascota" id="ratigueya" />
+            <label for="ratigueya">Ratigueya</label><br><br>
+            <button id="boton-mascota">Seleccionar</button>
+        </div>
+    </section>
+    <section id="seleccionar-ataque">
+        <h2>Elige tu ataque:</h2>
+        <div class="contenedor-vida">
+            <p class="mascota-jugadorr">Tu mascota <span id="mascota-jugador"></span> tiene 
+                <span id="vidas-jugador">3</span> vidas</p>
+            <p class="mascota-enemigoo">La mascota <span id="mascota-enemigo"></span> del enemigo tiene 
+                <span id="vidas-enemigo">3</span> vidas</p>
+            <p class="botones-juego">
+                <button id="boton-fuego">🔥 Fuego</button>
+                <button id="boton-agua">💧 Agua</button>
+                <button id="boton-tierra">🌱 Tierra</button>
+            </p>
+        </div>
+    </section>
+    <section id="mensajes">
+    </section>
+    <section class="boton-reiniciarr" id="reiniciar">
+        <center><button id="boton-reiniciar">Reiniciar Juego</button></center>
+    </section>
+    </div>
+</body>
+</html>
